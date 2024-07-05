@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+    <listeners>
+        <listener class-name = "RahulShettyAcademy.TestComponent.Listeners"/>
+    </listeners>
+  <test thread-count="5" name="End to End Test">
+    <classes>
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.StandAloneTest_POMReference"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Error Validations ">
+    <classes>
+      <class name="RahulShettyAcademy.SeleniumFrameworkDesign.ErrorValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
